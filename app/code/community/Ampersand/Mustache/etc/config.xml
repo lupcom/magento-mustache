@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ampersand_Mustache>
+            <version>0.1.0</version>
+        </Ampersand_Mustache>
+    </modules>
+    <global>
+        <blocks>
+            <ampersand_mustache>
+                <class>Ampersand_Mustache_Block</class>
+            </ampersand_mustache>
+        </blocks>
+        <helpers>
+            <ampersand_mustache>
+                <class>Ampersand_Mustache_Helper</class>
+            </ampersand_mustache>
+        </helpers>
+        <models>
+            <ampersand_mustache>
+                <class>Ampersand_Mustache_Model</class>
+            </ampersand_mustache>
+        </models>
+    </global>
+</config>

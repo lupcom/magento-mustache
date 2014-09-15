@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ampersand_Mustache>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ampersand_Mustache>
+    </modules>
+</config>
