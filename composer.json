@@ -1,0 +1,8 @@
+{
+    "name": "ampersand/mustache",
+    "type": "ampersand-magento",
+    "require": {
+        "ampersand/magento-installer"   : "1.*",
+        "mustache/mustache"             : "~2.7"
+    }
+}
