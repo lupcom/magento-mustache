@@ -24,7 +24,7 @@ class Ampersand_Mustache_Block_Template extends Mage_Core_Block_Template
      * @return Ampersand_Mustache_Block_Template
      * @author Yousef Cisco <yc@amp.co>
      */
-    public function setTemplateData($dataOrKey, $value = null)
+    public function setTemplateData($dataOrKey, $value = null, $clear = false)
     {
 
         if (!is_array($dataOrKey)) {
@@ -38,7 +38,13 @@ class Ampersand_Mustache_Block_Template extends Mage_Core_Block_Template
             $data = $data->getData();
         }
 
-        $this->templateData = array_merge($this->templateData, $data);
+        // Clear old data if the same block is being used to render multiple children
+        if ($clear) {
+            $this->templateData = $data;
+        } else {
+            $this->templateData = array_merge($this->templateData, $data);
+        }
+
 
         return $this;
     }
