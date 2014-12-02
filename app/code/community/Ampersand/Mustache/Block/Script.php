@@ -1,9 +1,9 @@
 <?php
-class Ampersand_Mustache_Block_Script extends Mage_Core_Block_Template
+class Ampersand_Mustache_Block_Script extends Ampersand_Mustache_Block_Abstract
 {
 
     /** @var array */
-    protected $scriptTemplate = '<script type="text/template" id="%s">%s</script>';
+    protected $scriptTemplate = '<script type="text/template" id="%s">{{! //<![CDATA[ }}%s{{! //]]> }}</script>';
     protected $templateId = '';
 
     /**

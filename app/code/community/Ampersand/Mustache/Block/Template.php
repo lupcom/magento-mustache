@@ -1,5 +1,5 @@
 <?php
-class Ampersand_Mustache_Block_Template extends Mage_Core_Block_Template
+class Ampersand_Mustache_Block_Template extends Ampersand_Mustache_Block_Abstract
 {
 
     /** @var array */
