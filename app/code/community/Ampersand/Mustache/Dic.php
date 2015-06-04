@@ -1,5 +1,5 @@
 <?php
-class Ampersand_Mustache_Dic extends \Pimple
+class Ampersand_Mustache_Dic extends \Pimple\Container
 {
     /**
      * @return void

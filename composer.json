@@ -3,6 +3,7 @@
     "type": "ampersand-magento",
     "require": {
         "ampersand/magento-installer"   : "1.*",
-        "mustache/mustache"             : "~2.7"
+        "mustache/mustache"             : "~2.8",
+        "pimple/pimple"                 : "^3.0"
     }
 }
