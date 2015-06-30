@@ -27,7 +27,7 @@ class Ampersand_Mustache_Block_Template extends Ampersand_Mustache_Block_Abstrac
     public function setTemplateData($dataOrKey, $value = null, $clear = false)
     {
 
-        if (!is_array($dataOrKey)) {
+        if (is_string($dataOrKey) && !is_null($value)) {
             $data = array($dataOrKey => $value);
         } else {
             $data = $dataOrKey;
