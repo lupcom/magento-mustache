@@ -3,7 +3,7 @@ Mustache template rendering module for Magento
 
 # Installation
 
-Mustache uses composer to handle installation of the module and its dependencies. If you're not already
+`ampersand/mustache` uses composer to handle installation of the module and its dependencies. If you're not already
 using composer to install Magento modules, follow the instructions [here](https://github.com/Cotya/magento-composer-installer#install-a-module-in-your-project).
 
 Use this command to add the module to your project
@@ -51,7 +51,7 @@ Documentation on Mustache templates can be found [here](http://mustache.github.i
         ```
 
 ### Features
-- Use the same block to render the same template multiple times
+- Use the same block to render the same template multiple times, if you don't want the data to cascade (ie. for the array to be merged repeatedly) pass true as the third param
 
     ```php
     <?php foreach ($products as $product): ?>
@@ -63,7 +63,7 @@ Documentation on Mustache templates can be found [here](http://mustache.github.i
     <?php endforeach ?>
     ```
 
-- Pass an array or a string value pair
+- Pass an array as data or a string value pair
 
     ```php
     $data = array();
@@ -107,7 +107,7 @@ tag that includes the template on the page with that unique ID
     var html = Mustache.render(template, data);
     ```
 
-Documentation on the javascript library can be found [here](https://github.com/janl/mustache.js#usage)
+Documentation on the mustache javascript library can be found [here](https://github.com/janl/mustache.js#usage)
 
 # Contribute
 
