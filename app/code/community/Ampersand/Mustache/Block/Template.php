@@ -38,13 +38,13 @@ class Ampersand_Mustache_Block_Template extends Ampersand_Mustache_Block_Abstrac
             $data = $data->getData();
         }
 
-        // Clear old data if the same block is being used to render multiple children
         if ($clear) {
+            // Clear old data if the same block is being used to render the same template multiple times
             $this->templateData = $data;
         } else {
+            // Allow setting more data in a separate call
             $this->templateData = array_merge($this->templateData, $data);
         }
-
 
         return $this;
     }

@@ -3,6 +3,20 @@
     "description": "Mustache template rendering module for Magento",
     "type": "magento-module",
     "license": "MIT",
+    "authors":[
+        {
+            "name": "Yousef Cisco",
+            "email": "cisco@yousef.io"
+        },
+        {
+            "name": "Cristian Quiroz",
+            "email": "contact@qrz.io"
+        },
+        {
+            "name": "Meng Tian",
+            "email": "meng.tian@ampersandit.co.uk"
+        }
+    ]
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
         "mustache/mustache"             : "~2.8",
