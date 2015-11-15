@@ -1,8 +1,10 @@
 {
     "name": "ampersand/mustache",
-    "type": "ampersand-magento",
+    "description": "Mustache template rendering module for Magento",
+    "type": "magento-module",
+    "license": "MIT",
     "require": {
-        "ampersand/magento-installer"   : "1.*",
+        "magento-hackathon/magento-composer-installer": "*",
         "mustache/mustache"             : "~2.8",
         "pimple/pimple"                 : "^3.0"
     }

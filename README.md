@@ -1,3 +1,3 @@
 # mustache
-Magento module to render Mustache templates
+Mustache template rendering module for Magento
 
