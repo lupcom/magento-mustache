@@ -115,6 +115,6 @@ Help us make this module better, submit a pull request :)
 
 - Fork the repo
 - Require `dev-default` using composer
-- In `vendor/ampersand/mustache` adding your fork as another git remote repo
+- In `vendor/ampersand/mustache` add your fork as another git remote repo
 - Update module, test and commit changes
 - Submit a pull request
