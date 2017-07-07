@@ -16,7 +16,7 @@
             "name": "Meng Tian",
             "email": "meng.tian@ampersandit.co.uk"
         }
-    ]
+    ],
     "require": {
         "magento-hackathon/magento-composer-installer": "*",
         "mustache/mustache"             : "~2.8",
